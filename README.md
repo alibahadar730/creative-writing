@@ -1,16 +1,4 @@
 # creative_writing
 
-A new Flutter project.
+It will be a system where we can input some words or any question and we will get the correct answer and the answer we will get will be plagiarism free and written by a human. We can generate a complete article through this project. • It will be a system that can generate text for you. • User gives input some words or any question and takes will get the correct answer. • Answer will be plagiarism free. • Answer will be written by human.
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
