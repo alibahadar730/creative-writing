@@ -2,6 +2,8 @@ export 'dart:async';
 export 'dart:convert';
 export 'dart:io';
 
+export 'package:creative_writing/models/model.dart';
+export 'package:creative_writing/screens/components/chat_message_widget.dart';
 export 'package:creative_writing/utils/app_theme.dart';
 export 'package:creative_writing/utils/constants.dart';
 export 'package:creative_writing/utils/routes.dart';

@@ -12,18 +12,16 @@ class GeneralButtons extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return SizedBox(
-      height: 70,
-      width: 240,
-      child: ElevatedButton(
-        style: ButtonStyle(
-            backgroundColor: MaterialStateProperty.all<Color>(AppTheme.accent)),
-        onPressed: () => onTap(context),
-        child: Text(text,
-            style: const TextStyle(
-                fontSize: 30,
-                fontWeight: FontWeight.bold,
-                color: Colors.black)),
+    return Container(
+      height: 45,
+      width: 120,
+      decoration: kBoxDecoration.copyWith(color: Colors.green),
+      child: GestureDetector(
+        onTap: () => onTap(context),
+        child: Text(
+            textAlign: TextAlign.center,
+            text,
+            style: const TextStyle(fontSize: 30, color: Colors.black)),
       ),
     );
   }
