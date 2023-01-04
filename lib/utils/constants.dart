@@ -8,7 +8,7 @@ BoxDecoration kBoxDecoration = BoxDecoration(
     color: AppTheme.trackColor,
     border: Border.all(color: Colors.brown, width: 2.5),
     borderRadius: const BorderRadius.all(Radius.circular(15)));
-const apiSecretKey = "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";
+const apiSecretKey = "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";
 BoxDecoration kMessageBoxDecoration = BoxDecoration(
     border: Border.all(color: Colors.brown, width: 2),
     borderRadius: const BorderRadius.all(Radius.circular(15)));
